@@ -1,0 +1,337 @@
+﻿No. / Nr.,English,Subdivision English,Definition Englisch,Including,Excluding,ICD-11 Foundation entity title,ICD-11 Foundation URI,ICD-11 Code,ICD-11 category Title,Levels of equivalence,Challenges
+A - 1,Transport accident,,Adverse event in transport resulting in property damage and/or bodily injury,,,Unintentional transport injury event,http://id.who.int/icd/entity/1609069486,ICD-11 block title,,ERC-Broader,"Conceptual difference,
+lack of specificity (ERC)"
+A - 1.1,Transport accident,Collision,Transport accident involving a collision of vehicles and/or humans,"Vehicle-vehicle collision, vehicle-human collision, vehicle-obstacle collision",Entrapment,Unintentional transport injury event,http://id.who.int/icd/entity/1609069486,ICD-11 block title,,ERC-Narrower,"Conceptual difference, lack of specificity (ICD-11)"
+A - 1.2,Transport accident,Fall,Transport accident involving a crash of vehicles and/or humans into the deep,,Collision,Fall in mode of transport without counterpart,http://id.who.int/icd/entity/730835390,XE0JJ,,ERC-Broader,"Non-unique mapping (1_ERC to M_ICD-11),lack of specificity (ERC)"
+,Transport accident,,,,,Fall from mode of transport without counterpart,http://id.who.int/icd/entity/1557737307,XE3M5,,,
+A - 1.3,Transport accident,Entrapment,Transport accident involving an entrapment of humans,,,Unintentional transport injury event,http://id.who.int/icd/entity/1609069486,ICD-11 block title,,Related to,"Conceptual difference, lack of specificity (ICD-11)"
+A - 2,Fall,,"An adverse event involving a loss of stability or a descent to a lower position, resulting in a human fall.",,,Unintentional fall,http://id.who.int/icd/entity/134290789,ICD-11 block title,,ERC-Broader,"Conceptual difference,
+lack of specificity (ERC)"
+A - 2.1,Fall,Fall on the same level or from less than 1 meter*,"Falling downward due to gravity, but without a significant change in height or elevation.","Stumbling, slipping, falling from standing position, tripping",Falls in/from modes of transport,Unintentional fall on the same level or from less than 1 metre,http://id.who.int/icd/entity/415990995,PA60,,ERC-Broader,"Conceptual difference,
+lack of specificity (ERC)"
+A - 2.2,Fall,Fall from a height of 1 meter or more,"Falling downward due to gravity, with a significant change in height or elevation.","Stair, ladder, building",Falls in/from modes of transport,Unintentional fall from a height of 1 metre or more,http://id.who.int/icd/entity/1729453916,PA61,,ERC-Broader,"Conceptual difference,
+lack of specificity (ERC)"
+A - 2.3,Fall,Fall from unspecified height,"Falling downward due to gravity, where the height is unspecified.",,,,,,,,
+A - 3,Natural disaster,,Adverse event with one or more direct natural causes,,,Exposure to extreme forces of nature,http://id.who.int/icd/entity/1491356379,ICD-11 block title,,Equivalent,
+A - 3.1,Natural disaster,Storm,Natural disaster caused by strong wind,Tornado cyclone,,Victim of cataclysmic storm,http://id.who.int/icd/entity/1444009771,PJ06,,Equivalent,
+A - 3.2,Natural disaster,Flood,Natural disaster caused by high-water levels on usually dry ground,,,Victim of flood,http://id.who.int/icd/entity/802885284,PJ07,,Equivalent,
+A - 3.3,Natural disaster,Lightning,Natural disaster caused by electrostatic discharge,,,Victim of lightning,http://id.who.int/icd/entity/1295772309,PJ00,,Equivalent,
+A - 3.4,Natural disaster,Earthquake,Natural disaster caused by shaking of the Earth's surface,Earth movement,,Victim of earthquake,http://id.who.int/icd/entity/700289973,PJ01,,Equivalent,
+A - 3.5,Natural disaster,Avalanche,Natural disaster caused by rapid flow of snow down a slope,"Flow of mud, flow of ice",,"Victim of avalanche, landslide or other earth movements",http://id.who.int/icd/entity/395675088,PJ05,,ERC-Narrower,Lack of specificity (ICD-11)
+A - 3.6,Natural disaster,Volcano eruption,Natural disaster caused by the exhibition of magma from earth's surface,"Exhibition of tephra, exhibition of gases",,Victim of volcanic eruption,http://id.who.int/icd/entity/526124884,PJ04,,Equivalent,
+A - 3.7,Natural disaster,Tsunami,Natural disaster caused by the displacement of a large volume of water,,,Victim of tsunami,http://id.who.int/icd/entity/1837231441,PJ03,,Equivalent,
+A - 3.8,Natural disaster,Landslide,"Natural disaster caused by the movement of rock, earth, or debris down a slope",,,"Victim of avalanche, landslide or other earth movements",http://id.who.int/icd/entity/395675088,PJ05,,ERC-Narrower,Lack of specificity (ICD-11)
+A - 3.9,Natural disaster,Extreme heat/drought,Natural event caused by prolonged periods of high temperature or lack of water,Wildfire,,Unintentional exposure to excessive heat of natural origin,http://id.who.int/icd/entity/1861950930,PB15,Unintentional exposure to excessive heat,ERC-Broader,"Conceptual difference, Lack of specificity (ERC)"
+A - 3.10,Natural disaster,Extreme cold,Natural event caused by prolonged periods of low temperature or lack of heat,Cold wave,,Unintentional exposure to excessive cold of natural origin,http://id.who.int/icd/entity/995169037,PB16,Unintentional exposure to excessive cold,ERC-Broader,"Conceptual difference, Lack of specificity (ERC)"
+A - 4,Technical disaster,,Adverse event with one or more direct human causes,,,,,,,No match,Terminology gap
+A - 4.1,Technical disaster,Building collapse,Manmade disaster caused by structural failure in building,"Building, bridge, tunnel",,Unintentionally struck by moving object,http://id.who.int/icd/entity/1370161749,PA81,,ERC-Narrower,Lack of specificity (ICD-11)
+A - 4.2,Technical disaster,Gas leak,Manmade disaster caused by gas leakage,,,Gas leak,http://id.who.int/icd/entity/917113479,XE0RV,,Equivalent,
+A - 4.3,Technical disaster,Water leak,Manmade disaster caused by water leakage,,,Fluid leak,http://id.who.int/icd/entity/1817998426,XE2ZY,,ERC-Narrower,Lack of specificity (ICD-11)
+A - 4.4,Technical disaster,Electrical shock,Manmade disaster caused by electric current passing through the human body,,,Unintended electrical shock,http://id.who.int/icd/entity/2092287283,XE739,,ERC-Broader,"Conceptual difference, Lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+,,,,,,Exposure to electric current,http://id.who.int/icd/entity/1161373428,XE8A0,,,
+,,,,,,Unintentional exposure to electric current,http://id.who.int/icd/entity/1235293558,PB51,,,
+A - 4.5,Technical disaster,Explosion,"Manmade disaster caused by the release of large amounts of energy in the form of temperature, pressure or kinetic energy",Chemical spill,,Unintentional exposure to explosion,http://id.who.int/icd/entity/432499949,PB55,,ERC-Broader,"Conceptual difference, Lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+,,,,,,Explosion,http://id.who.int/icd/entity/1703580369,XE5EZ,,,
+A - 4.6,Technical disaster,Fire,"Manmade disaster caused by fire, usually accompanied by the emisssion of heat and light","Ember, Burnt smell",,"Exposure to unspecified smoke, fire and flames",http://id.who.int/icd/entity/429856753,PB1Z,Unintentional exposure to thermal mechanism,ERC-Narrower,"Lack of specificity (ICD-11), Non-unique mapping (1_ERC to M_ICD-11)"
+,,,,,,Fire,http://id.who.int/icd/entity/2100435581,XE5T3,,,
+A - 4.7,Technical disaster,Smoke,"Manmade disaster involving smoke, usually caused by combustion",,,"Exposure to unspecified smoke, fire and flames",http://id.who.int/icd/entity/429856753,PB1Z,Unintentional exposure to thermal mechanism,ERC-Narrower,"Lack of specificity (ICD-11), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Smoke,http://id.who.int/icd/entity/873468403,XE5H5,,,
+A - 4.8,Technical disaster,Ice collapse,Manmade disaster involving collapsing of ice,"Collapse of ice on water, collapse of ice block",,,,,,No match,Terminology gap
+A - 5,External violence,,"Physical and eventually verbal violence against humans, endangering their health, safety and well-being",,,Assault,http://id.who.int/icd/entity/73322695,ICD-11 block title,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Maltreatment,http://id.who.int/icd/entity/491063206,ICD-11 block title,,,
+A - 5.1,External violence,Abuse,Improper and often violent treatment of a human,"Sexual abuse, rape, phyiscal abuse, neglect",,Maltreatment,http://id.who.int/icd/entity/491063206,ICD-11 block title,,Equivalent,
+A - 5.2,External violence,Raid,Violent taking away of other people's property,,,Robbery,http://id.who.int/icd/entity/261390897,XE6PL,,Equivalent,
+A - 5.3,External violence,Bomb threat,Threat with device filled with explosive material,"Bomb detonation, improvised explosive devices, chemical explosion",,Assault by exposure to explosion,http://id.who.int/icd/entity/1394867772,PF15,,ERC-Narrower,lack of specificity (ICD-11)
+A - 5.4,External violence,Rampage,Sudden mass assault against people with the intention of killing them,,,,,,,No match,Terminology gap
+A - 5.5,External violence,Hostage-taking,Capture of one or multiple humans and holding them as prisoners while usually making demands,Abduction,,"Context of assault, kidnapping",http://id.who.int/icd/entity/620762351,XE1N7,,ERC-Narrower,lack of specificity (ICD-11)
+A - 5.6,External violence,Civil unrest,A large group of people engaging in disorderly and violent behaviour,"Violent demonstrations, riots",,,,,,No match,Terminology gap
+A - 5.7,External violence,Contamination,Violent acts by hazardous substances,"Drug, radioactive, biological",,Assault by exposure to or harmful effects of substances,http://id.who.int/icd/entity/1008592825,ICD-11 block title,,Equivalent,
+A - 5.8,External violence,Arson,Deliberate setting of fire to property,,,Assault by arson,http://id.who.int/icd/entity/1141617323,PE7Y,Assault by exposure to thermal mechanism,Equivalent,
+B1 - 1,Pedestrian,,"Person travelling on foot, whether standing, walking, or running",,,Pedestrian as mode of transport of person injured in transport event,http://id.who.int/icd/entity/1809796899,XE88K,,Equivalent,
+B1 - 1.1,Pedestrian,Pedestrian using mobility aid,"Pedestrian using a device designed to assist standing, walking, or running","Crutch, rolator, walking sticks, prosthesis, exosceleton",,Pedestrian as mode of transport of person injured in transport event,http://id.who.int/icd/entity/1809796899,XE88K,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 1.2,Pedestrian,Pedestrian without aid,Pedestrian not using mobility aids,,,Pedestrian as mode of transport of person injured in transport event,http://id.who.int/icd/entity/1809796899,XE88K,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 2,Human-powered land transport,,Transport device that is powered by human muscles,,"Any kind of engine, pedestrian",Person-powered means of transport,http://id.who.int/icd/entity/1090117309,XE81T,,Equivalent,
+B1 - 2.1,Human-powered land transport,Cycle,"Transport device with one or more wheels, usually with seat(s) and/or steering aid","Monowheel, bicycle, tricycle, scooter, go-cart, cycle-rickshaw, kickboard, wheelchair",,Pedal cycle,http://id.who.int/icd/entity/1715907604,XE94Q,,Equivalent,
+B1 - 2.2,Human-powered land transport,Scate,Transport device that is attached under humans' feet,"Skateboard, ice skates, roller skates, inline skates, ski, snowboard, rollerblading suit, heelys, stilts, pedal balance board",,"Equipment with wheels or designed for movement, mainly for use in sports or recreational activity",http://id.who.int/icd/entity/710820956,XE70Q,,Related to,Conceptual difference
+B1 - 3,Animal-powered land transport,,Human transport using an animal-drawn vehicle or riding an animal,,Animal-drawn farm machinery,Animal-powered means of transport,http://id.who.int/icd/entity/2038526973,XE1MP,,Equivalent,
+B1 - 3.1,Animal-powered land transport,Human riding,Human transport by riding an animal,,,Animal being ridden,http://id.who.int/icd/entity/943274035,XE0ZZ,,Equivalent,
+B1 - 3.2,Animal-powered land transport,Carriage,Human transport in an animal-drawn vehicle,,,Animal-drawn vehicle,http://id.who.int/icd/entity/1687726899,XE1CF,,Equivalent,
+B1 - 4,Engined cycle,,Motorized vehicle without cabin,Motorized rickshaw,"Car, Tuc Tuc",Motorised two- or three-wheeled vehicle,http://id.who.int/icd/entity/1856575293,XE3ZP,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 4.1,Engined cycle,Motorcycle,"Two-, three-, or four-wheeled engined cycle transporting sitting persons without a sidecar","Motorized rickshaw, motorized scooter,  moped, trike, quad",,Motorcycle,http://id.who.int/icd/entity/965526830,XE0TY,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,"Moped, scooter",http://id.who.int/icd/entity/1697469998,XE9N6,,,
+, ,,,,,Three-wheeled motor vehicle or scooter,http://id.who.int/icd/entity/1350449975,XE9AX,,,
+B1 - 4.2,Engined cycle,Engined cycle with sidecar,Engined cycle with a sidecar,,,Motorised two- or three-wheeled vehicle,http://id.who.int/icd/entity/1856575293,XE3ZP,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 4.3,Engined cycle,E-vehicle,Electrically powered device to transport standing or sitting persons,"Pedelec, e-scooter, e-bike, segway, e-kickboard, monowheel",,,,,,No match,Terminology gap
+B1 - 5,Passenger vehicle,,Motor vehicle for the carriage of passengers in cabins on roads,,,Light transport vehicle with four or more wheels,http://id.who.int/icd/entity/191900029,XE3GH,,Related to,"Conceptual difference,Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Heavy transport vehicle with four or more wheels,http://id.who.int/icd/entity/475549117,XE4NR,,,
+B1 - 5.1,Passenger vehicle,Cabin scooter,Three-wheeler with closed cabin,"Tuc Tuc, mototaxi",,Mototaxi as mode of transport of person injured in transport related event,http://id.who.int/icd/entity/1696327573,XE1DF,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Tuk-tuk as mode of transport of person injured in transport related event,http://id.who.int/icd/entity/1517583389,XE8DK,,,
+B1 - 5.2,Passenger vehicle,Car,Passenger vehicle with a minimum of four wheels for seated passengers and with up to 5 seats (including the driver),,,Passenger car,http://id.who.int/icd/entity/1032140413,XE50Z,,Equivalent,
+B1 - 5.3,Passenger vehicle,Minibus,Passenger vehicle with a minimum of four wheels for seated passengers (6 to 21 seats including the driver),,,Minibus,http://id.who.int/icd/entity/1417136230,XE6DC,,Equivalent,
+B1 - 5.4,Passenger vehicle,City bus,Passenger vehicle with a minimum of four wheels for standing passengers (additional seats allowed),Passenger airport vehilce,,"Bus, coach",http://id.who.int/icd/entity/1009830752,XE60G,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 5.5,Passenger vehicle,Coach,Passenger vehicle with a minimum of four wheels for seated passengers with at least 22 seat and no standing area,,,"Bus, coach",http://id.who.int/icd/entity/1009830752,XE60G,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 6,Freight vehicle,,Motor vehicle for the carriage of goods,,,Light transport vehicle with four or more wheels,http://id.who.int/icd/entity/191900029,XE3GH,,Related to,"Conceptual difference,Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Heavy transport vehicle with four or more wheels,http://id.who.int/icd/entity/475549117,XE4NR,,,
+B1 - 6.1,Freight vehicle,Light freight vehicle,"Freight vehicle with a maximum mass not exceeding 3,5 t",,,"Light truck, Sports Utility Vehicle (SUV), utility van, 4x4 vehicle, jeep, pick-up truck",http://id.who.int/icd/entity/1629791613,XE4BF,,Related to,"Conceptual difference, lack of specificity (ICD-11)"
+B1 - 6.2,Freight vehicle,Medium freight vehicle,"Freight vehicle with a maximum mass exceeding 3,5 t but not exceeding 12 t",,,,,,,No match,Terminology gap
+B1 - 6.3,Freight vehicle,Heavy freight vehicle,Freight vehicle with a maximum mass exceeding 12 t,,,"Tractor-trailer, articulated lorry, 18-wheeler, rig",http://id.who.int/icd/entity/1438791033,XE8XB,,Related to,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,"Heavy truck, not elsewhere classified",http://id.who.int/icd/entity/1929774728,XE5A8,,,
+, ,,,,,Trailer or horse-float,http://id.who.int/icd/entity/1692008976,XE5KW,,,
+B1 - 7,Special vehicle,,Specially equipped vehicle for distinct purposes,,,Mobile machinery or special purpose vehicle,http://id.who.int/icd/entity/2111620040,ICD-11 block title,,Equivalent,
+B1 - 7.1,Special vehicle,Rescue vehicle,Special vehicle that has special traffic rights,"Ambulance, firetruck, police car",,Ambulance,http://id.who.int/icd/entity/1600988338,XE80A,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,"Fire truck, fire engine",http://id.who.int/icd/entity/63748018,XE5BQ,,,
+B1 - 7.2,Special vehicle,Agricultural vehicle,Special vehicle for agricultur,Animal-drawn farm machinery,,Mobile machinery or special purpose vehicle mainly used in agriculture,http://id.who.int/icd/entity/1109907866,XE7X0,,Equivalent,
+B1 - 7.3,Special vehicle,Construction vehicle,Special vehicle for construction,,,Mobile machinery or special purpose vehicle mainly used in construction,http://id.who.int/icd/entity/1819742234,XE1GE,,Equivalent,
+B1 - 7.4,Special vehicle,Military vehicle,Special vehicle for military,Tank,,,,,,No match,Terminology gap
+B1 - 7.5,Special vehicle,Special terrain vehicle,Special vehicle for one or multiple terrains,,,Special all-terrain vehicle or off-road vehicle,http://id.who.int/icd/entity/1853977475,XE6R9,,Equivalent,
+B1 - 8,Railway,,Transport device with carry-on engine rolling on metal rails,,"Schwebebahn, Magnetbahn",Rail vehicle,http://id.who.int/icd/entity/622911741,XE0ZK,,Equivalent,
+B1 - 8.1,Railway,Light rail,Railway for standing persons (seats optional),"Tram, commuter",,"Streetcar, tram, electric car, car trolley",http://id.who.int/icd/entity/1055837255,XE40X,,Related to,lack of specificity (ICD-11)
+B1 - 8.2,Railway,Train,Railway for sitting persons without particular standing areas,High speed trains,,Train,http://id.who.int/icd/entity/1649368903,XE9Q3,,Equivalent,
+B1 - 8.3,Railway,Freight train,Railway for goods,,,,,,,No match,Terminology gap
+B1 - 9,Cableway,,Transport device that runs with cables that are powered by external devices.,,"Elevator, paternoster elevator",,,,,No match,Terminology gap
+B1 - 9.1,Cableway,Cable railway,Cableway that rolls on metal rails and is pulled by cables.,,,"Funicular, monorail, or other similar rail vehicle",http://id.who.int/icd/entity/1461465696,XE3P6,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 9.2,Cableway,Cable car,Cableway with cabines that hang on cables.,,,"Cable car, ski chair lift, ski lift with gondola",http://id.who.int/icd/entity/854317032,XE8KJ,,ERC-Narrower,lack of specificity (ICD-11)
+B1 - 9.3,Cableway,Chair lift,"Cableway without cabins that hangs on cables, containing seats.",,,"Cable car, ski chair lift, ski lift with gondola",http://id.who.int/icd/entity/854317032,XE8KJ,,ERC-Narrower,lack of specificity (ICD-11)
+B2 - 1,Underground passenger vehicle,,underground rail-based vehicles used for passenger transportation,,,,,,,No match,Terminology gap
+B2 - 1.1,Underground passenger vehicle,Underground Light rail,Underground light rail vehicle used for transportation,,,,,,,No match,Terminology gap
+B2 - 1.2,Underground passenger vehicle,Subway / Metro,Underground railway system used to transport large numbers of passengers within urban and suburban areas,,,,,,,No match,Terminology gap
+B2 - 2,Underground mining vehicle,,Specialized vehicles used in underground mining operations,,,"Tram, truck, or tub in mine or quarry",http://id.who.int/icd/entity/802843546,XE1BG,,ERC-Narrower,lack of specificity (ICD-11)
+B2 - 2.1,Underground mining vehicle,Mine rail truck,"Underground rail truck specifically designed for transporting ore, materials, and equipment",,,Coal-car in mine,http://id.who.int/icd/entity/1683201114,XE6B4,,ERC-Narrower,"lack of specificity (ICD-11), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,"Tram, truck, or tub in mine or quarry",http://id.who.int/icd/entity/802843546,XE1BG,,,
+B2 - 2.2,Underground mining vehicle,Trackless mining vehicle,"Large, rugged trucks designed to transport ore and other materials within underground mines",,,"Tram, truck, or tub in mine or quarry",http://id.who.int/icd/entity/802843546,XE1BG,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 1,Gliding air transport,,Motorless aircraft which passively generates lift through air currents in order to counteract the vertical fall.,,,Unpowered aircraft or means of air transport,http://id.who.int/icd/entity/2128837268,XE4QU,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 1.1,Gliding air transport,Parachute,Gliding device used to reduce the fall speed of the attached person. Takeoff usually occurs from another aircraft.,,,Parachute,http://id.who.int/icd/entity/770457891,XE627,,Equivalent,
+B3 - 1.2,Gliding air transport,Wingglider,Gliding device to which people are attached to. Takeoff is usually by human power from an elevated level.,"Hangglider, wingsuit",,Hang-glider,http://id.who.int/icd/entity/415181882,XE3VU,,ERC-Broader,lack of specificity (ERC)
+B3 - 1.3,Gliding air transport,Glider,Gliding device that climbs with the help of air currents. Takeoff is done by other technical devices that accelerate it.,,,Glider,http://id.who.int/icd/entity/1396104186,XE2KU,,Equivalent,
+B3 - 2,Floating air transport,,Aircraft using gas with lower density than the atmospheric air to generate static lift.  The lifting gas is enclosed by an envelope which is connected to the payload.,,,Unpowered aircraft or means of air transport,http://id.who.int/icd/entity/2128837268,XE4QU,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 2.1,Floating air transport,Hot gas balloon,Lifting gas is atmospheric hot air or steam,Hot-air balloon,,"Passenger balloon, unpowered",http://id.who.int/icd/entity/1900925475,XE96T,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 2.2,Floating air transport,Hydrogen balloon,Lifting gas is hydrogen,,,"Passenger balloon, unpowered",http://id.who.int/icd/entity/1900925475,XE96T,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 2.3,Floating air transport,Helium balloon,Lifting gas is helium,,,"Passenger balloon, unpowered",http://id.who.int/icd/entity/1900925475,XE96T,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 2.4,Floating air transport,Mixed-gas balloon,Lifting gas is a mixture of helium and hydrogen,,,"Passenger balloon, unpowered",http://id.who.int/icd/entity/1900925475,XE96T,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 3,General aviation,,Civil aviation except commercial airliners. Motorized fixed-wing aircraft.,,General aviation > 45000kg (e.g. Bizliner),Powered aircraft or means of air transport,http://id.who.int/icd/entity/1201395668,XE9LQ,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 3.1,General aviation,Light airplane,"Aircraft being operated by a crew of 1-2, transporting up to 6 passengers and weighing up to 5700kg.",,,Private fixed-wing powered aircraft,http://id.who.int/icd/entity/1374215389,XE7MP,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 3.2,General aviation,Medium airplane,"Aircraft being operated by a crew of 2, transporting up to 9 passengers and weighing up to 12000kg.",,,Private fixed-wing powered aircraft,http://id.who.int/icd/entity/1374215389,XE7MP,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 3.3,General aviation,Large airplane,"Aircraft being operated by a crew of 2 or more, transporting up to 18 passengers and weighing up to 45000kg.",,,Private fixed-wing powered aircraft,http://id.who.int/icd/entity/1374215389,XE7MP,,Related to,"lack of specificity (ICD-11),Conceptual difference"
+B3 - 4,Airliner,,Commercial civil air transport.,General aviation with an aircraft weight of more than 45000kg,,Powered aircraft or means of air transport,http://id.who.int/icd/entity/1201395668,XE9LQ,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 4.1,Airliner,Commuter aircraft,Light airplane with passenger capacity of up to 19 passengers.,Air taxi,,Commercial fixed-wing powered aircraft,http://id.who.int/icd/entity/1115652661,XE7FK,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 4.2,Airliner,Regional aircraft,Aircraft with passenger capacitiy of less than 100 passengers.,"Feederliner, Commuter",,Commercial fixed-wing powered aircraft,http://id.who.int/icd/entity/1115652661,XE7FK,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 4.3,Airliner,Narrow-body aircraft,Aircraft with one aisle with passenger capacities of 100-240.,,,Commercial fixed-wing powered aircraft,http://id.who.int/icd/entity/1115652661,XE7FK,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 4.4,Airliner,Wide-body aircraft,Aircraft with two aisles with passenger capacities of 200-850 passengers.,,,Commercial fixed-wing powered aircraft,http://id.who.int/icd/entity/1115652661,XE7FK,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B3 - 5,Rotorcraft,,Aircraft that generates lift and/or propulsion by rotating wings.,,Rotorkite/Gyrokite,Powered aircraft or means of air transport,http://id.who.int/icd/entity/1201395668,XE9LQ,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 5.1,Rotorcraft,Autogyro,"Main rotor not driven by an engine, but passively by airflow, generating lift. Propulsion is generated by a traction or thrust motor. Vertical take-off and landing as well as hovering are not possible.",,,Ultralight powered aircraft,http://id.who.int/icd/entity/442575645,XE0WR,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 5.2,Rotorcraft,Gyrodyne,Rotor is driven by a motor. Vertical take-off and landing possible. Propulsion is additionally generated by a propeller or jet engine. Possibly lift is supported by rigid wings.,,,,,,,No match,Terminology gap
+B3 - 5.3,Rotorcraft,Helicopter,Rotor/s are driven by a motor and provide lift as well as propulsion.,,,Helicopter,http://id.who.int/icd/entity/1939068166,XE4LN,,Equivalent,
+B3 - 6,Special aircraft,,Specially equipped aircraft for distinct purposes,,,Powered aircraft or means of air transport,http://id.who.int/icd/entity/1201395668,XE9LQ,,ERC-Narrower,lack of specificity (ICD-11)
+B3 - 6.1,Special aircraft,Rescue aircraft,Special aircraft for emergency response,,,,,,,No match,Terminology gap
+B3 - 6.2,Special aircraft,Science aircraft,Special aircraft for science,,,,,,,No match,Terminology gap
+B3 - 6.3,Special aircraft,Military aircraft,Special aircraft for military,,,Military fixed-wing powered aircraft,http://id.who.int/icd/entity/230502299,XE6FD,,ERC-Broader,lack of specificity (ERC)
+B3 - 6.4,Special aircraft,Freight transport aircraft,Special aircraft for cargo transport,,,,,,,No match,Terminology gap
+B4 - 1,Rocket,,Launch vehicle used to lift payloads from Earth into space,,,,,,,No match,Terminology gap
+B4 - 1.1,Rocket,Expendable rocket,Rocket used only once,,,,,,,No match,Terminology gap
+B4 - 1.2,Rocket,Reusable rocket,Rocket which can land and used again,,,,,,,No match,Terminology gap
+B4 - 2,Spacecraft,,"Space vehicle for operation in space, including crewed and uncrewed, cargo transport, and satellites",,,Spacecraft,http://id.who.int/icd/entity/1936176450,XE346,,ERC-Broader,lack of specificity (ERC)
+B4 - 2.1,Spacecraft,Human spacecraft,Spacecraft used to transport humans in space,"Crewed capsule, spaceplane, interplanetary spacecraft",,Spacecraft,http://id.who.int/icd/entity/1936176450,XE346,,ERC-Narrower,lack of specificity (ICD-11)
+B4 - 2.2,Spacecraft,Cargo spacecraft,Spacecraft used to transport goods in space,,,Spacecraft,http://id.who.int/icd/entity/1936176450,XE346,,ERC-Narrower,lack of specificity (ICD-11)
+B4 - 2.3,Spacecraft,Specialized orbital satellite,"Satellite designed for specific purposes, such as weather, navigation, observation, or communication, operating in Earth orbit",,,,,,,No match,Terminology gap
+B4 - 3,Space habitat,,Space vehicle support long-term human presence in space,,,,,,,No match,Terminology gap
+B4 - 3.1,Space habitat,Space station,"Space habitat orbit Earth and serve as platforms for research, crew rotation, and short-term habitation",,,,,,,No match,Terminology gap
+B4 - 3.2,Space habitat,Deep space habitat,Space habitat designed for extended missions beyond Earth,,,,,,,No match,Terminology gap
+B5 - 1,Swimmer/diver,,Person partially or fully submerged in water.,Diver,,,,,,No match,Terminology gap
+B5 - 1.1,Swimmer/diver,Swimmer/diver with equipment,Person using equipment that assists with swimming or diving.,"Diving fin, diving mask, snorkel, compressed air supply, buoyancy compensator, inflatable armband",,,,,,No match,Terminology gap
+B5 - 1.2,Swimmer/diver,Swimmer/diver without equipment,Person without equipment.,"Wetsuit, semi dry suit, dry suit, hot water suit",,,,,,No match,Terminology gap
+B5 - 2,Human-powered watertransport,,Watercraft that is powered by human muscles.,,"Any kind of engine, swimmer and diver, wind-powered watercraft",Unpowered watercraft or means of water transport,http://id.who.int/icd/entity/2062191047,XE29V,,ERC-Narrower,lack of specificity (ICD-11)
+B5 - 2.1,Human-powered watertransport,Paddled and oared watercraft,Watercraft that is propelled forward using oars or paddles.,"Row boat, dingh, canoe, kayak, SUP, gondola, coracle, sampans, scull, dory",,"Canoe, kayak, row boat, pirogue, piragua",http://id.who.int/icd/entity/765200735,XE8BZ,,Related to,lack of specificity (ERC)
+B5 - 2.2,Human-powered watertransport,Pedaled watercraft,Watercraft that is operated by using pedals.,"Pedalo, hydrocycle, pedal-powered hydrofoil, pedal powered kayak",,,,,,No match,Terminology gap
+B5 - 3,Windpowered watertransport,,Watercraft that is propelled forward by using wind.,,,Unpowered watercraft or means of water transport,http://id.who.int/icd/entity/2062191047,XE29V,,ERC-Narrower,lack of specificity (ICD-11)
+B5 - 3.1,Windpowered watertransport,Sailing boat,Watercraft that uses one or multiple sails as its primary propelling system.,,,"Sailboat, unpowered yacht",http://id.who.int/icd/entity/1899862623,XE9SF,,Equivalent,
+B5 - 3.2,Windpowered watertransport,Kite boat,Watercraft that uses a kite as its primary propelling system.,,,,,,,No match,Terminology gap
+B5 - 3.3,Windpowered watertransport,Windmill boat,Watercraft that uses a windmill that is mechanically or electrically connected to a propeller.,,,,,,,No match,Terminology gap
+B5 - 4,Engined watercraft,,Watercraft that is powered by one or several motors.,,,Powered watercraft or means of water transport,http://id.who.int/icd/entity/1133651079,XE70T,,Equivalent,
+B5 - 4.1,Engined watercraft,Engined watercraft of short length,"Watercraft with a maximal overall length not exceeding 16 feet (4,9 m).",,,"Motorised yacht, motorboat, powered boat, personal powered watercraft",http://id.who.int/icd/entity/1108331081,XE3WZ,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 4.2,Engined watercraft,Engined watercraft of medium length,"Watercraft with a maximal overall length exceeding 16 feet (4,9m) but not exceeding 65 feet (19,8m).",,,"Motorised yacht, motorboat, powered boat, personal powered watercraft",http://id.who.int/icd/entity/1108331081,XE3WZ,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 4.3,Engined watercraft,Engined watercraft of large length,"Watercraft with a maximal overall length exceeding 65 feet (19,8m).",,,"Merchant ship, cargo ship, oil tanker",http://id.who.int/icd/entity/1944296824,XE7NQ,,Related to,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 5,Long distance passengership,,Watercraft that is used for long distance passenger transport and has the main purpose of hosting and entertaining tourists.,"Cruise ship, ferry crossing long distances on open water","Ferry crossing short distances on closed water (lake, river etc.)","Passenger ship, passenger liner, ocean liner",http://id.who.int/icd/entity/792858232,XE3HS,,ERC-Narrower,lack of specificity (ICD-11)
+B5 - 5.1,Long distance passengership,Long distance passengership of small size,Passenger ship with a maximum passenger capacity of 1000.,,,"Passenger ship, passenger liner, ocean liner",http://id.who.int/icd/entity/792858232,XE3HS,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 5.2,Long distance passengership,Long distance passengership of medium size,Passenger ship with a maximum passenger capacity of 3000.,,,"Passenger ship, passenger liner, ocean liner",http://id.who.int/icd/entity/792858232,XE3HS,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 5.3,Long distance passengership,Long distance passengership of large size,Passenger ship with a maximum passenger capacity of 7000.,,,"Passenger ship, passenger liner, ocean liner",http://id.who.int/icd/entity/792858232,XE3HS,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 6,Ferry,,Watercraft that is used for short distance passenger transport with the main purpose of transporting people and vehicles.,,Ferry crossing long distances on open water,Ferry used for short trips across closed waters,http://id.who.int/icd/entity/1368954017,XE69F,,Equivalent,
+B5 - 6.1,Ferry,Small sized ferry,Ferry with a maximum passenger capacity of 500.,,,Ferry used for short trips across closed waters,http://id.who.int/icd/entity/1368954017,XE69F,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 6.2,Ferry,Medium sized  ferry,Ferry with a maximum passenger capacity of 2000.,,,Ferry used for short trips across closed waters,http://id.who.int/icd/entity/1368954017,XE69F,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 6.3,Ferry,Large sized  ferry,Ferry with a maximum passenger capacity of 3500.,,,Ferry used for short trips across closed waters,http://id.who.int/icd/entity/1368954017,XE69F,,ERC-Narrower,"lack of specificity (ICD-11), Conceptual difference"
+B5 - 7,Special watercraft,,Specially equipped watercraft for distinct purposes.,,,Powered watercraft or means of water transport,http://id.who.int/icd/entity/1133651079,XE70T,,ERC-Narrower,lack of specificity (ICD-11)
+B5 - 7.1,Special watercraft,Rescue watercraft,Special watercraft used to rescue ships or people in distress.,"Lifeboat, Rescue watercraft (RWC), motorboat equipped to rescue people, tugboat jetski",,,,,,No match,Terminology gap
+B5 - 7.2,Special watercraft,Science  watercraft,Special watercraft for science.,"Submarine, diving robot (ROUV)",,,,,,No match,Terminology gap
+B5 - 7.3,Special watercraft,Military watercraft,Special watercraft for military.,"Military submarine, aircraft carrier, destroyer, corvette, frigate, cruiser",,,,,,No match,Terminology gap
+B5 - 7.4,Special watercraft,Fishing watercraft,Special watercraft for fishing.,"Trawler, seiner, longliner, dredger, gillnetter",,"Fishing boat, trawler",http://id.who.int/icd/entity/437347169,XE801,,Equivalent,
+B5 - 7.5,Special watercraft,Support watercraft,Special watercraft for the support of other ships and operations on water.,"Tug ship, icebreaker, feeder",,,,,,No match,Terminology gap
+B5 - 7.6,Special watercraft,Freight watercraft,Special watercraft for the transportation of goods.,,,"Merchant ship, cargo ship, oil tanker",http://id.who.int/icd/entity/1944296824,XE7NQ,,ERC-Broader,lack of specificity (ERC)
+B6 - 1,Diver assisted device,,Underwater devices that directly augment a diver's capabilities,,,,,,,No match,Terminology gap
+B6 - 1.1,Diver assisted device,Propulsion device,Handheld or rider-operated devices that increase a diver's speed and range underwater,,,,,,,No match,Terminology gap
+B6 - 1.2,Diver assisted device,Assist exoskeleton,Wearable robotic systems that enhance a diver's strength and dexterity,,,,,,,No match,Terminology gap
+B6 - 2,Underwater vehicle,,Type of transport designed to operate beneath the surface of water,,,Submarine or related craft,http://id.who.int/icd/entity/722031640,XE4UQ,,ERC-Narrower,lack of specificity (ICD-11)
+B6 - 2.1,Underwater vehicle,Submersible,"Smaller, specialized underwater vehicles designed for specific tasks like deep-sea research or tourism",,,Submarine or related craft,http://id.who.int/icd/entity/722031640,XE4UQ,,ERC-Narrower,lack of specificity (ICD-11)
+B6 - 2.2,Underwater vehicle,Submarine,"Large, self-contained vessels designed for extended underwater missions, capable of long-range travel",,,Submarine or related craft,http://id.who.int/icd/entity/722031640,XE4UQ,,ERC-Narrower,lack of specificity (ICD-11)
+B6 - 2.3,Underwater vehicle,Remotely operated vehicle,Tethered underwater vehicles controlled from a surface vessel,,,Submarine or related craft,http://id.who.int/icd/entity/722031640,XE4UQ,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 1,Residential area,,Outdoor area used for daily living activities.,,,Home,http://id.who.int/icd/entity/1670965842,XE266,,Related to,lack of specificity (ICD-11)
+C1.1 - 1.1,Residential area,Backyard/front garden,Adjoining structure attached to a building with no specified use.,Terrace,,"Part of building or grounds, garden or yard",http://id.who.int/icd/entity/1003400364,XE3DE,,Equivalent,
+C1.1 - 1.2,Residential area,Roof,Part located at the top boundary of a building.,,,,,,,No match,Terminology gap
+C1.1 - 1.3,Residential area,Driveway,"Frequently used section connecting roads and structures used by cars (e.g. car park, garage).",,,"Part of building or grounds, driveway",http://id.who.int/icd/entity/362702124,XE65J,,Equivalent,
+C1.1 - 1.4,Residential area,Park and Garden,"Human-controlled green space used for recreational activities, relaxation and other purposes.",Private park,Agriculturally used garden,Public park,http://id.who.int/icd/entity/197312270,XE5C2,,Equivalent,
+C1.1 - 1.5,Residential area,Sports and Entertainment,Area used for sports and/or entertainment involving physical activity.,"Playground, sports field",,"Part of building or grounds, playground",http://id.who.int/icd/entity/1064408708,XE8SG,,ERC-Broader,lack of specificity (ERC)
+C1.1 - 1.6,Residential area,Outdoor Pool,Artificial structure filled with water used for swimming.,,,"Part of building or grounds, swimming pool",http://id.who.int/icd/entity/45482476,XE4PW,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 1.7,Residential area,Square,Large flat expanse that can be used for various purposes.,Market place,,,,,,No match,Terminology gap
+C1.1 - 2,Mobility area,,Area used for mobility and transport.,,,"Public highway, street or road",http://id.who.int/icd/entity/713258542,XE5NE,,Equivalent,
+C1.1 - 2.1,Mobility area,Railway,Linear structure on which rail vehicles move.,,,,,,,No match,Terminology gap
+C1.1 - 2.2,Mobility area,Walkway,Path that is used primarily on foot. Pavement can range from asphalt to lack of vegetation due to frequent use.,"Sidewalk, footpath, hiking path",,Sidewalk,http://id.who.int/icd/entity/1973552212,XE53A,,Equivalent,
+C1.1 - 2.3,Mobility area,Slow road,Maximum speed of 30km/h (approx. 19mph),,,Roadway,http://id.who.int/icd/entity/1289398548,XE6NQ,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 2.4,Mobility area,Fast road,Maximum speed of 80km/h (approx. 50mph),,,Roadway,http://id.who.int/icd/entity/1289398548,XE6NQ,,ERC-Narrower,lack of specificity (ICD-11
+C1.1 - 2.5,Mobility area,High speed road,Speed above 80km/h (approx. 50mph),,,Roadway,http://id.who.int/icd/entity/1289398548,XE6NQ,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 3,Economical area,,Area used for economy.,,,,,,,No match,Terminology gap
+C1.1 - 3.1,Economical area,Construction site,"Area where something is being built, rebuilt or demolished.",,,Building under construction,http://id.who.int/icd/entity/640506137,XE11T,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Demolition site,http://id.who.int/icd/entity/525726809,XE0Z7,,,
+C1.1 - 3.2,Economical area,Opencast mining,Above-ground area used for extraction of raw materials.,,,Mine or quarry,http://id.who.int/icd/entity/1839509209,XE0Y1,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 3.3,Economical area,Depository,Area used for storage.,,,,,,,No match,Terminology gap
+C1.1 - 3.4,Economical area,Agricultural land,Land used for the production of organic goods.,,,"Area for growing crops, market gardening, horticulture",http://id.who.int/icd/entity/1053753458,XE1ES,,Equivalent,
+C1.1- 3.5,Economical area,Dam,Structure used to divert or retain water.,,,"Body of water, dam, lake",http://id.who.int/icd/entity/945194429,XE285,,ERC-Narrower,lack of specificity (ICD-11)
+C1.1 - 4,Landscape area,,Area with special signs of nature.,,,Countryside,http://id.who.int/icd/entity/1731879372,XE5JL,,Related to,lack of specificity (ICD-11)
+C1.1 - 4.1,Landscape area,Forest,Area with a high density of trees.,,,Forest,http://id.who.int/icd/entity/1426129825,XE6AV,,Equivalent,
+C1.1 - 4.2,Landscape area,Island,Land surrounded by water.,,,,,,,No match,Terminology gap
+C1.1 - 4.3,Landscape area,Lakeshore and beach,"Area near a body of water whose soil consists of sand, gravel/stone and/or earth.",,Body of water,"Beach, shore or bank of a body of water",http://id.who.int/icd/entity/1819913953,XE010,,Equivalent,
+C1.1 - 4.4,Landscape area,Grassland,Area predominantly covered by grass.,"Maedow, lawn",,,,,,No match,Terminology gap
+C1.1 - 4.5,Landscape area,Desert,"Dry area covered with sand or stone, with sparse or absent flora and fauna and a hot climate.",Salt desert,,Desert,http://id.who.int/icd/entity/1110009697,XE601,,Equivalent,
+C1.1 - 4.6,Landscape area,Swamp,Landscape whose soil has high moisture.,Marsh,,Marsh or swamp,http://id.who.int/icd/entity/2068957729,XE5TX,,Equivalent,
+C1.1 - 4.7,Landscape area,Ice landscape,Landscape covered with snow or ice.,Larger glacier,,,,,,No match,Terminology gap
+C1.1 - 4.8,Landscape area,Mountain & Volcanic Landscape,Area whose soil is made up of different types of rock and in which major altitude gradients occur.,,,,,,,No match,Terminology gap
+C1.2,Underground area,,Area underneath the ground of natural or artificial origin.,,,,,,,No match,Terminology gap
+C1.2- 1,Underground area,Unexplored cave,Cave system that is neither secured nor explored.,,,,,,,No match,Terminology gap
+C1.2 - 2,Underground area,Unsecured cave,"Cave system that is not thoroughly secured, but has been explored.",,,,,,,No match,Terminology gap
+C1.2 - 3,Underground area,Secured cave,"Cave system that is fully explored, secured against collapse and contains safety features that make it safe to traverse.",,,,,,,No match,Terminology gap
+C1.2 - 4,Underground area,Water-filled cave/mine,Cave or artificially created underground cavern filled with water.,,,,,,,No match,Terminology gap
+C1.2 - 5,Underground area,Mine,Cavern serving the mining industry.,,,Mine or quarry,http://id.who.int/icd/entity/1839509209,XE0Y1,,Equivalent,
+C1.2 - 6,Underground area,Tunnel,Underground structure that allows passage through a mountain or under other structures such as rivers and roads.,,,,,,,No match,Terminology gap
+C1.3,Water area,,Area covered by water,,,Body of water,http://id.who.int/icd/entity/1607276467,XE7K9,,Equivalent,
+C1.3 - 1,Water area,River,Directional flowing inland water,"Canal, brook/stream, lock",,"Body of water, river, stream",http://id.who.int/icd/entity/1944023677,XE1CZ,,Equivalent,
+C1.3 - 2,Water area,Lake,Large body of water surrounded by land.,Pond,,"Body of water, dam, lake",http://id.who.int/icd/entity/945194429,XE285,,ERC-Narrower,lack of specificity (ICD-11)
+C1.3 - 3,Water area,Coastal water,"Distance up to 1 M (1,852km) from coast",,,"Body of water, open sea",http://id.who.int/icd/entity/2006198291,XE5N4,,ERC-Narrower,lack of specificity (ICD-11)
+C1.3 - 4,Water area,Territorial water,"Distance up to 12 M (22,224km) from coast",,,"Body of water, open sea",http://id.who.int/icd/entity/2006198291,XE5N4,,ERC-Narrower,lack of specificity (ICD-11)
+C1.3 - 5,Water area,Contiguous zone,"Distance up to 24 M (44,448km) from coast",,,"Body of water, open sea",http://id.who.int/icd/entity/2006198291,XE5N4,,ERC-Narrower,lack of specificity (ICD-11)
+C1.3 - 6,Water area,EEZ (exclusive economic zone),"Distance up to 200 M (370,4km) from coast",,,"Body of water, open sea",http://id.who.int/icd/entity/2006198291,XE5N4,,ERC-Narrower,lack of specificity (ICD-11)
+C1.3 - 7,Water area,High seas,"Distance of more than 200 M (370,4km) from coast",,,"Body of water, open sea",http://id.who.int/icd/entity/2006198291,XE5N4,,ERC-Narrower,lack of specificity (ICD-11)
+C1.4,Underwater area,,Area underneath the water surface.,,,,,,,No match,Terminology gap
+C1.4 - 1,Underwater area,Light-flooded water layer,Depth 0m to 200m.,,,,,,,No match,Terminology gap
+C1.4 - 2,Underwater area,Dark water layer,Depth more than 200m.,,,,,,,No match,Terminology gap
+C1.5,Air space,,Area above land or water surface.,,,,,,,No match,Terminology gap
+C1.5 - 1,Air space,Lower Airspace,Between 0m (sea level) and 7.5km.,,,,,,,No match,Terminology gap
+C1.5 - 2,Air space,Upper Airspace,Between 7.5km and 100km.,,,,,,,No match,Terminology gap
+C1.6,Space,,Area with an altitude above 100km (sea level).,,,,,,,No match,Terminology gap
+C2 - 1,Residential building,,A building or accommodation primarily used for daily living and personal storage by individuals or families.,,Assisted living facilities,Home,http://id.who.int/icd/entity/1670965842,XE266,,Related to,lack of specificity (ICD-11)
+C2 - 1.1,Residential building,Detached house,"Residential building, which has no direct connection to adjacent houses",,,Detached house,http://id.who.int/icd/entity/1894348690,XE9XY,,Equivalent,
+C2 - 1.2,Residential building,Terrace house,"Residential building, which has a direct connection to adjacent houses",,,Terrace house or row house,http://id.who.int/icd/entity/1234295506,XE9P0,,Equivalent,
+C2 - 1.3,Residential building,Apartment/apartment building,Building in which several households live,,,Apartment or flat,http://id.who.int/icd/entity/1589231122,XE7DU,,Equivalent,
+C2 - 1.4,Residential building,Mobile home,Non-stationary residential accommodation that is capable of being independently moved or moved by another vehicle,"Motorhome/caravan, houseboat",,"Residential caravan, mobile home, houseboat or motor home",http://id.who.int/icd/entity/742974610,XE1LE,,Equivalent,
+C2 - 1.5,Residential building,Hut/tent,Accommodation with limited structural integrity and lack of a foundation.,Tree house,,Hut,http://id.who.int/icd/entity/355486162,XE3ZC,,ERC-Narrower,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Tent,http://id.who.int/icd/entity/826737824,XE14D,,,
+, ,,,,,"Tree house, play house",http://id.who.int/icd/entity/972852564,XE7YQ,,,
+C2 - 1.6,Residential building,Shed/garage,Unoccupied building with different uses and limited structural integrity,,,"Part of building or grounds, garage",http://id.who.int/icd/entity/753322092,XE2Q4,,Equivalent,
+C2 - 2,Commercial building,,Buildings used for business activities,,,Commercial area (non-recreational),http://id.who.int/icd/entity/1581436044,XE48U,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 2.1,Commercial building,Shop building,A commercial building where goods and services are sold to consumers,"Shopping mall, retail center, store",,Shop or store,http://id.who.int/icd/entity/1030762471,XE319,,Equivalent,
+C2 - 2.2,Commercial building,Office building,"A commercial building providing workspaces for businesses, housing offices, meeting rooms, and related facilities for professional activities",,,Office building,http://id.who.int/icd/entity/320923239,XE58T,,Equivalent,
+C2 - 2.3,Commercial building,Hotel building,Building which provides paid lodging on a short-term basis,,,Boarding house or hotel,http://id.who.int/icd/entity/35138834,XE6X4,,Equivalent,
+C2 - 2.4,Commercial building,Gastronomic building,A commercial building designed specifically for food-related activities,"Restaurant, cafe, food court",,Café or fast food outlet,http://id.who.int/icd/entity/2016260698,XE058,,ERC-Broader,lack of specificity (ERC)
+C2 - 3,Educational building,,Building that is used for care and/or educational purposes,,,School or educational area,http://id.who.int/icd/entity/672210322,XE6TU,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 3.1,Educational building,Kindergarten/day care,Childcare facility,,,Child centre or day care centre,http://id.who.int/icd/entity/1117763621,XE3JM,,ERC-Broader,"lack of specificity (ERC),  Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Preschool or kindergarten,http://id.who.int/icd/entity/2078741861,XE9LH,,,
+C2 - 3.2,Educational building,School,Buildings for primary and secondary education,,Gymnasium,Primary school,http://id.who.int/icd/entity/1825534373,XE1ZF,,ERC-Broader,"lack of specificity (ERC),  Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Secondary school,http://id.who.int/icd/entity/152457189,XE3CZ,,,
+C2 - 3.3,Educational building,University/college,Educational institutions for adults where higher academic degrees can be obtained,,Gymnasium,College or university,http://id.who.int/icd/entity/507390757,XE9BK,,Equivalent,
+C2 - 4,Healthcare building,,Building designed to provide medical care and support services,,,Medical service area,http://id.who.int/icd/entity/1304962002,XE9VC,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 4.1,Healthcare building,Hospital,Building in which patients can stay overnight while being treated medically,Inpatient rehabilitation clinic,,Hospital,http://id.who.int/icd/entity/2125227683,XE28K,,Equivalent,
+C2 - 4.2,Healthcare building,Outpatient clinic,Building in which patients get outpatient services and routine care,health center,,Outpatient clinic or health centre,http://id.who.int/icd/entity/1205128163,XE8DZ,,Equivalent,
+C2 - 4.3,Healthcare building,Health professionals' office,"Buildings where individuals visit for routine check-ups, consultations, and non-emergency medical care","General Practician/specialist practice, other practices such as physio/occupational therapy",,Health professionals' office,http://id.who.int/icd/entity/1358737187,XE86F,,Equivalent,
+C2 - 4.4,Healthcare building,Assisted living facility,"Buildings equipped with advanced technology to monitor and support the health and well-being of its inhabitants, particularly individuals with special needs or health concerns",,,,,,,No match,Terminology gap
+C2 - 5,Public building,,Buildings designed to serve the needs of the public and government functions,,,Non-cultural public building,http://id.who.int/icd/entity/1847296334,XE774,,Related to,lack of specificity (ICD-11)
+C2 - 5.1,Public building,City adminstration,Buildings where local government meetings and administrative functions take place,,,,,,,No match,Terminology gap
+C2 - 5.2,Public building,Courthouse,"Buildings where legal proceedings, trials, and judicial activities occur",,,,,,,No match,Terminology gap
+C2 - 5.3,Public building,Police station,Buildings where law enforcement officers are based and operate,,,,,,,No match,Terminology gap
+C2 - 5.4,Public building,Fire station,Buildings housing fire-fighting equipment and personnel,,,,,,,No match,Terminology gap
+C2 - 5.5,Public building,Post office,Buildings for mailing services and postal operations,,,,,,,No match,Terminology gap
+C2 - 5.6,Public building,Public library,"Public buildings that provide access to books, information, and other educational resources",,,,,,,No match,Terminology gap
+C2 - 6,Industrial building,,"Buildings designed for industrial activities such as manufacturing, storage, and production",,,Industrial or construction area,http://id.who.int/icd/entity/839669614,XE7T4,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 6.1,Industrial building,Factory,Buildings where goods are manufactured or assembled,,,Factory or plant,http://id.who.int/icd/entity/142446745,XE3U5,,Equivalent,
+C2 - 6.2,Industrial building,Workshop,Buildings for specialized manual work,"Crafting, assembly, repair, or light manufacturing.",,,,,,No match,Terminology gap
+C2 - 6.3,Industrial building,Warehouse,"Buildings used for the storage of raw materials, goods, or finished products.",,,,,,,No match,Terminology gap
+C2 - 6.4,Industrial building,Power plant,"Facility in which one form of energy is converted into another, usually electricity","Nuclear powerplant, powerplant running on fossil fuel",,Power station,http://id.who.int/icd/entity/1423704985,XE8Q1,,Equivalent,
+C2 - 6.5,Industrial building,Construction/demolition site,"A building that is in the process of construction, reconstruction, or demolition and thus differs significantly from the planned building",,,Building under construction,http://id.who.int/icd/entity/640506137,XE11T,,ERC-Broader,"lack of specificity (ERC), Non-unique mapping (1_ERC to M_ICD-11)"
+, ,,,,,Demolition site,http://id.who.int/icd/entity/525726809,XE0Z7,,,
+C2 - 7,Agricultural building,,Building for agricultural purposes,,,Farm or other place of primary production,http://id.who.int/icd/entity/623129518,XE9CS,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 7.1,Agricultural building,Barn,"Buildings used for storing livestock, feed, equipment, and sometimes crops",,,Area for raising or care of animals,http://id.who.int/icd/entity/129477938,XE54N,,ERC-Broader,lack of specificity (ERC)
+C2 - 7.2,Agricultural building,Silo,"A building used for storing bulk materials, typically grains, silage, or fodder",,,,,,,No match,Terminology gap
+C2 - 7.3,Agricultural building,Greenhouse,"Building designed to grow plants, especially in controlled environments to protect from adverse weather conditions",,,"Area for growing crops, market gardening, horticulture",http://id.who.int/icd/entity/1053753458,XE1ES,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 8,Cultural building,,"Buildings designed for public entertainment, artistic, and cultural activities",,,"Recreational area, cultural area, or public building",http://id.who.int/icd/entity/1231726668,XE7GY,,Related to,lack of specificity (ICD-11)
+C2 - 8.1,Cultural building,Theatre,"Buildings used for live performances, plays, movies",,,,,,,No match,Terminology gap
+C2 - 8.2,Cultural building,Art gallery,Buildings for displaying visual art,,,,,,,No match,Terminology gap
+C2 - 8.3,Cultural building,Museum,"Buildings that preserve and exhibit historical, cultural, or scientific objects",,,,,,,No match,Terminology gap
+C2 - 8.4,Cultural building,Social building,Buildings used for socialisation purposes,"Play parks, circus, club/disco, pubs/bars",,"Bar, pub, saloon or other commercial place primarily for provision of alcoholic drinks",http://id.who.int/icd/entity/479878845,XE03P,,ERC-Broader,lack of specificity (ERC)
+C2 - 9,Sport building,,Facility that is used for sports,,,Sports and athletics area,http://id.who.int/icd/entity/1060731218,XE7K0,,ERC-Narrower,lack of specificity (ICD-11)
+C2- 9.1,Sport building,General sporting facility,Facility where sports activities are practiced,"Sports hall belonging to an educational facility, indoor courts for ball sports, skating halls, weight rooms, bouldering/climbing halls",,Indoor sporting hall,http://id.who.int/icd/entity/2013926996,XE1CY,,ERC-Broader,lack of specificity (ERC)
+C2 - 9.2,Sport building,Swimming facility,A facility with at least one pool that can be filled with water and used for swimming,,,Public swimming centre,http://id.who.int/icd/entity/1864528532,XE3YG,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 9.3,Sport building,Shooting range,Facility intended for the use of projectile weapons,,,,,,,No match,Terminology gap
+C2 - 10,Military building,,Building used by armed forces,,,Military institution,http://id.who.int/icd/entity/988785866,XE138,,ERC-Narrower,lack of specificity (ICD-11)
+C2 - 10.1,Military building,Military base,Buildings for training and housing military personnel,,,,,,,No match,Terminology gap
+C2 - 10.2,Military building,Barrack,Living quarters for military personnel,,,,,,,No match,Terminology gap
+C2 - 10.3,Military building,Armories,Storage facilities for weapons and military equipment,,,,,,,No match,Terminology gap
+C2 - 11,Special building,,Buildings for specific purposes,,,,,,,No match,Terminology gap
+C2 - 11.1,Special building,Prison,Secure building for housing individuals in custody or serving sentences.,,,Prison,http://id.who.int/icd/entity/1209988682,XE30E,,Equivalent,
+C2 - 11.2,Special building,Railway station,"Buildings for boarding, alighting, and managing train operations",,,,,,,No match,Terminology gap
+C2 - 11.3,Special building,Airport,"Building for air travel, including passenger terminals, runways, and control towers",,,,,,,No match,Terminology gap
+C2 - 11.4,Special building,Port station,"Building for docking ships, handling cargo, and passenger transportation by sea",,,,,,,No match,Terminology gap
+C2 - 11.5,Special building,Public religious place,"Building for communal religious activities, ceremonies, and worship","Church, mosque, synagogue, temple",,Public religious place,http://id.who.int/icd/entity/1078675662,XE0ES,,Equivalent,
+D- 1,General living,,Room used for daily living activities.,,,Home,http://id.who.int/icd/entity/1670965842,XE266,,Related to,lack of specificity (ICD-11)
+D- 1.1,General living,Entrance hall,Entry area leading into the living room,,,"Part of building or grounds, lobby",http://id.who.int/icd/entity/1578603244,XE3R6,,Related to,lack of specificity (ICD-11)
+D- 1.2,General living,Living room,"Room for relaxation and socializing typically features comfortable seating like sofas, chairs, and entertainment systems.","Family room, play room",,"Part of building or grounds, living room",http://id.who.int/icd/entity/1180428155,XE1M5,,Equivalent,
+D- 1.3,General living,Bedroom,"Private room designed for sleeping and personal use, designed for adults/teens",Kids room,,"Part of building or grounds, bedroom",http://id.who.int/icd/entity/595777851,XE8RZ,,Equivalent,
+D- 1.4,General living,Dining room,A space  for eating meals,,,,,,,No match,Terminology gap
+D- 1.5,General living,Dressing room,Room for changing clothes,,,,,,,No match,Terminology gap
+D- 1.6,General living,Wardrobe room,"Rooms for storing clothes, shoes, and accessories",,,,,,,No match,Terminology gap
+D- 1.7,General living,Balcony,"Elevated room attached to the house offers a private outdoor space for sitting or relaxing, usually with a view",Roof terrace,,"Part of building or grounds, balcony",http://id.who.int/icd/entity/783808261,XE4U5,,Equivalent,
+D- 1.8,General living,Attic room,Room between the roof and the top floor,,,,,,,No match,Terminology gap
+D- 1.9,General living,Basement room,Underground room under a house.,,,,,,,No match,Terminology gap
+D- 1.10,General living,Corridor,Room between other rooms that mainly has a separating and connecting function.,,,"Part of building or grounds, corridor",http://id.who.int/icd/entity/1228928556,XE6ZJ,,Equivalent,
+D- 1.11,General living,Stairs,Steps that allow primary vertical ascent.,Steps,,"Stairs, steps",http://id.who.int/icd/entity/1021954298,XE3HC,,Equivalent,Non-unique mapping (1_ERC to M_ICD-11)
+, ,,,,,"Part of building or grounds, stairs",http://id.who.int/icd/entity/1735344044,XE2NQ,,,
+D- 1.12,General living,Elevator,Space in which people and objects are passively transported upwards or downwards.,Escalator,,"Lift, elevator",http://id.who.int/icd/entity/93414842,XE8PC,,Equivalent,Non-unique mapping (1_ERC to M_ICD-11)
+, ,,,,,"Part of building or grounds, elevator",http://id.who.int/icd/entity/1883724652,XE9L8,,,
+D - 2,Sport,,A room for for indoor exercise or sports,,,Sports and athletics area,http://id.who.int/icd/entity/1060731218,XE7K0,,ERC-Narrower,lack of specificity (ICD-11)
+D - 2.1,Sport,Sports hall,Indoor facility for sport activities,,,Indoor sporting hall,http://id.who.int/icd/entity/2013926996,XE1CY,,Equivalent,
+D - 2.2,Sport,Swimming hall,An indoor facility that contains one or more swimming pools,,,"Part of building or grounds, swimming pool",http://id.who.int/icd/entity/45482476,XE4PW,,Equivalent,
+D - 2.3,Sport,Exercise hall,"Room for physical activities, featuring areas for group workouts and fitness equipment",Fitness room,,,,,,No match,Terminology gap
+D - 2.4,Sport,Changing room,"Room for changing clothes, often found in gyms, pools, or public facilities",,,,,,,No match,Terminology gap
+D - 3,Wellness,,Room for personal care and wellness facilities,,,,,,,No match,Terminology gap
+D - 3.1,Wellness,Bathroom/toilet,"Room equipped with a toilet and usually a sink, used for personal hygiene and sanitation.",,,"Part of building or grounds, bathroom, toilet",http://id.who.int/icd/entity/1745563387,XE2XM,,Equivalent,
+D - 3.2,Wellness,Shower room,Room designed primarily for showering,,,,,,,No match,Terminology gap
+D - 3.3,Wellness,Laundry room,"Rooms in which clothes are washed, dried, and sometimes ironed",,,,,,,No match,Terminology gap
+D - 3.4,Wellness,Wellness room,Room designed to promote physical and mental well-being.,"Sauna, steam bath, massage room, thermal bath, whirlpool, solarium",,,,,,No match,Terminology gap
+D - 3.5,Wellness,Quiet room,"A calm, noise-free room for rest, focus, or relaxation",,,,,,,No match,Terminology gap
+D - 4,Cultural,,Room used for cultural activities,,,"Recreational area, cultural area, or public building",http://id.who.int/icd/entity/1231726668,XE7GY,,Related to,lack of specificity (ICD-11)
+D - 4.1,Cultural,Hall,A general-purpose large room used for various cultural activities,"Exhibition hall, religious hall",,,,,,No match,Terminology gap
+D - 4.2,Cultural,Stage hall,Room for performances with a stage and audience seating,,,,,,,No match,Terminology gap
+D - 5,Medical,,Room to support healthcare services or medical check-ups,,,Medical service area,http://id.who.int/icd/entity/1304962002,XE9VC,,ERC-Narrower,lack of specificity (ICD-11)
+D - 5.1,Medical,Consultation room,"Rooms for assessing, examining, or discussing with patients",examination room,,Health professionals' office,http://id.who.int/icd/entity/1358737187,XE86F,,Related to,lack of specificity (ICD-11
+D - 5.2,Medical,Procedure room,Rooms for active medical care or procedure,"Emergency department,  operating room, recovery room, intensive care unit (ICU), inpatient room",,,,,,No match,Terminology gap
+D - 5.3,Medical,Radiology  room,"Rooms equipped with imaging equipment such as X-ray, CT, or MRI machines",,,,,,,No match,Terminology gap
+D - 5.4,Medical,Medical laboratory room,Room for medical investigations,,,,,,,No match,Terminology gap
+D - 5.5,Medical,Pharmacy room,"Room where medications are stored, prepared, and dispensed.",,,,,,,No match,Terminology gap
+D - 6,Working,,"Room for productivity, collaboration, or focused work",,,,,,,No match,Terminology gap
+D - 6.1,Working,Animal shelter,Room dedicated to animal care operations,,,Animal stables,http://id.who.int/icd/entity/210958315,XE9WB,,Equivalent,
+D - 6.2,Working,Office,"Enclosed room for professional, administrative, or clerical work",,,"Part of building or grounds, office or home office",http://id.who.int/icd/entity/231870651,XE051,,ERC-Narrower,lack of specificity (ICD-11)
+D - 6.3,Working,Workstation,Space within a workplace where specific tasks or activities are performed,,,,,,,No match,Terminology gap
+D - 6.4,Working,Kitchen,Room in which food is prepared,,,"Part of building or grounds, kitchen",http://id.who.int/icd/entity/1366524859,XE4XM,,Equivalent,
+D - 6.5,Working,Laboratory,"Room for scientific experiments, research, and technical work",,,,,,,No match,Terminology gap
+D - 6.6,Working,Sales room,A room for displaying and offering goods for sale,,,Shop or store,http://id.who.int/icd/entity/1030762471,XE319,,Equivalent,
+D - 6.7,Working,Class room,"Room for structured academic work, such as teaching, learning, and academic activities",,,"Part of building or grounds, classroom",http://id.who.int/icd/entity/452621435,XE115,,Equivalent,
+D - 7,Storage,,Room used to store a variety of items,,,,,,,No match,Terminology gap
+D - 7.1,Storage,General storage room,Room for storing various items not regularly in use,,,,,,,No match,Terminology gap
+D - 7.2,Storage,Food storage room,"Room for storing food products, ensuring they are kept in proper conditions",,,,,,,No match,Terminology gap
+D - 7.3,Storage,Stock room,Room for storing inventory or goods intended for sale or distribution,,,,,,,No match,Terminology gap
+D - 7.4,Storage,Vehicle storage room,"Room for storing vehicles, motorcycles, bikes, or related equipment",,,"Part of building or grounds, garage",http://id.who.int/icd/entity/753322092,XE2Q4,,Equivalent,
+D - 7.5,Storage,Tool storage room,Room for storing tools and equipment,,,,,,,No match,Terminology gap
